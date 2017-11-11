@@ -1,0 +1,4 @@
+Feature engineering:
+time based features (seasonality)
+Mean encoding
+min/max/mean price for (shop_id, product_id) pairs

@@ -2,3 +2,5 @@ Feature engineering:
 time based features (seasonality)
 Mean encoding
 min/max/mean price for (shop_id, product_id) pairs
+number of different products for each shop
+number of different shops selling a product

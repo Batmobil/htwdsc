@@ -4,3 +4,24 @@ Mean encoding
 min/max/mean price for (shop_id, product_id) pairs
 number of different products for each shop
 number of different shops selling a product
+
+Grid search results:
+
+from sklearn.model_selection import GridSearchCV
+xgb_model = xgb.XGBRegressor(n_jobs=-1)
+clf = GridSearchCV(xgb_model,
+                   {'max_depth': [6, 10],
+                    'learning_rate': [0.05, 0.01],
+                    'n_estimators': [50,100,200],
+                    'min_child_weight': [1, 2]}, verbose=1)
+clf.fit(train_xgb, target_xgb)
+print(clf.best_score_)
+print(clf.best_params_)
+
+Fitting 3 folds for each of 24 candidates, totalling 72 fits
+
+[Parallel(n_jobs=1)]: Done  72 out of  72 | elapsed: 382.5min finished
+
+0.127153846797
+{'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'n_estimators': 50}
+

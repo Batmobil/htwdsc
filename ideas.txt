@@ -24,4 +24,8 @@ Fitting 3 folds for each of 24 candidates, totalling 72 fits
 
 0.127153846797
 {'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 1, 'n_estimators': 50}
-
+------------------------------------------------
+Dealing with testdataset monthly structure
+- How to add time based features?
+- Predict day by day (missing item price)
+- Adding features: cumulative sales, business days 

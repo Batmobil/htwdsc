@@ -28,4 +28,7 @@ Fitting 3 folds for each of 24 candidates, totalling 72 fits
 Dealing with testdataset monthly structure
 - How to add time based features?
 - Predict day by day (missing item price)
-- Adding features: cumulative sales, business days 
+- Adding features: cumulative sales, business days
+
+- constrct grid for every possible shop item pairs.
+- process test dataset and concat to train set. 

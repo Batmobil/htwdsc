@@ -1,1 +1,1 @@
-jupyter notebooks to extract features and explore models to predict future monthly sales of softwaare from the kaggle challenge "predict future sales" (final project for "How to win a data science competition" Coursera course).
+jupyter notebooks to extract features and explore models to predict future monthly sales of softwares from the kaggle challenge "predict future sales" (final project for "How to win a data science competition" Coursera course).
